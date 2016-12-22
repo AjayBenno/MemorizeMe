@@ -1,0 +1,19 @@
+First Iteration
+
+So for this application first idea would be providing a unique word from website. So you go on website and you enter it in. So when you open alexa you provide it a unique word from there that you can enter in. Once given, the app willhit the firebase database and retrieve based on the word. Then it will repeat the phrase.
+
+Server
+Python flask server deployed on heroku. Has a single page that enters in a text box and generates a random word.
+
+Alexa
+Python script that serves as lambda function
+
+
+
+
+
+Type of python libraries needed
+Flask
+Request
+urllib2
+firebase
